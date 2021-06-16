@@ -769,7 +769,7 @@ For more information, you can check out [the implementing pull request](https://
 
 As with every TypeScript version, declarations for `lib.d.ts` (especially the declarations generated for web contexts), have changed.
 In this release, we leveraged [Mozilla's browser-compat-data](https://github.com/mdn/browser-compat-data) to remove APIs that no browser implements.
-While it is unlike that you are using them, APIs such as `Account`, `AssertionOptions`, `RTCStatsEventInit`, `MSGestureEvent`, `DeviceLightEvent`, `MSPointerEvent`, `ServiceWorkerMessageEvent`, and `WebAuthentication` have all been removed from `lib.d.ts`.
+While it is unlikely that you are using them, APIs such as `Account`, `AssertionOptions`, `RTCStatsEventInit`, `MSGestureEvent`, `DeviceLightEvent`, `MSPointerEvent`, `ServiceWorkerMessageEvent`, and `WebAuthentication` have all been removed from `lib.d.ts`.
 This is discussed [in some detail here](https://github.com/microsoft/TypeScript-DOM-lib-generator/issues/991).
 
 https://github.com/microsoft/TypeScript-DOM-lib-generator/issues/991
